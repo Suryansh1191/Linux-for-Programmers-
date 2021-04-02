@@ -1,0 +1,9 @@
+alias cls=clear
+alias pf="ps -e | grep $1"
+pf shutter
+cat .bash_logout
+cat .bashrc | less
+cd work
+cd /usr/local/bin
+	sudo chown dave:mary example.txt
+sudo chown dave:dave example.txt
